@@ -1,0 +1,83 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        right: 47px;
+        bottom: 25px;
+
+        width: calc(100% - 94px);
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider:after
+    {
+        margin-top: 208px;
+    }
+
+
+    .main_slider .data
+    {
+        height: auto;
+        padding: 308px 8px 103px;
+    }
+
+
+    .main_slider .img
+    {
+        left: 50%;
+
+        height: 308px;
+
+        transform: translateX(-50%);
+    }
+
+
+    .main_slider .info
+    {
+        width: 100%;
+        max-width: 100%;
+        min-height: 148px;
+        padding: 16px 8px;
+    }
+
+
+
+    /*-----------------
+        Tabs block
+    -----------------*/
+    .tabs_block:after
+    {
+        margin-left: -101px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories:before
+    {
+        top: 119px;
+    }
+
+
+
+    /*-----------
+        Genre
+    -----------*/
+    .genre .row > *
+    {
+        width: calc(25% - 8px);
+    }
+}

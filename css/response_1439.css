@@ -1,0 +1,124 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 16px;
+    }
+
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        right: 48px;
+        bottom: 32px;
+
+        width: calc(50% - 54px);
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider:before
+    {
+        margin-left: -512px;
+    }
+
+    .main_slider:after
+    {
+        margin-left: -631px;
+    }
+
+
+    .main_slider .data
+    {
+        height: 552px;
+        padding: 32px 32px 104px;
+    }
+
+
+    .main_slider .info
+    {
+        min-height: 248px;
+    }
+
+
+    .main_slider .desc,
+    .main_slider .link
+    {
+        margin-top: 10px;
+    }
+
+
+    .main_slider .number
+    {
+        font-size: 75px;
+
+        letter-spacing: 3.75px;
+    }
+
+
+
+    /*-----------------
+        Tabs block
+    -----------------*/
+    .tabs_block:before
+    {
+        margin-left: -633px;
+    }
+
+    .tabs_block:after
+    {
+        margin-left: 4px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories:before
+    {
+        top: 95px;
+
+        margin-left: -785px;
+    }
+
+
+
+    /*-----------
+        Genre
+    -----------*/
+    .genre .row > *
+    {
+        width: calc(16.666% - 8px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu > *
+    {
+        margin-left: 115px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 992px;
+    }
+}

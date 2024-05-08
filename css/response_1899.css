@@ -1,0 +1,49 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        right: 56px;
+
+        width: calc(50% - 62px);
+        margin-right: 0;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .data
+    {
+        height: 600px;
+    }
+
+
+    .main_slider .info
+    {
+        min-height: 320px;
+    }
+
+
+
+    /*-----------
+        Genre
+    -----------*/
+    .genre .row > *
+    {
+        width: calc(14.285% - 8px);
+    }
+}

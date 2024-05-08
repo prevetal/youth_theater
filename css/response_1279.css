@@ -1,0 +1,258 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 16px;
+        right: 16px;
+    }
+
+
+    .fancybox__slide,
+    .fancybox__container:not(.is-compact) .fancybox__slide.has-close-btn
+    {
+        padding: 16px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 26px;
+    }
+
+
+    .block_head.pad_r
+    {
+        min-height: 0;
+        margin-bottom: 26px;
+        padding: 0;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        height: 36px;
+    }
+
+
+    header .menu
+    {
+        position: fixed;
+        z-index: 9;
+        top: 0;
+        left: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 72px 16px 16px;
+
+        transition: transform .3s linear;
+
+        background: rgba(42, 34, 83, .60);
+
+                backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+    }
+
+    header .menu.show
+    {
+        transform: translateX(-100%);
+    }
+
+
+    header .menu .logo,
+    header .menu .close_btn
+    {
+        display: block;
+    }
+
+
+    header .menu > *
+    {
+        width: 100%;
+    }
+
+    header .menu > * + *
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    header .menu .btn
+    {
+        font-size: 20px;
+        font-weight: 600;
+
+        width: 100%;
+        height: 48px;
+        padding: 10px;
+
+        text-align: center;
+
+        color: #000;
+        border-radius: 100px;
+        background: #fd1e9a;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider:before
+    {
+        top: 30px;
+        left: -13px;
+
+        margin-left: 0;
+    }
+
+    .main_slider:after
+    {
+        left: 9px;
+
+        margin-top: 316px;
+        margin-left: 0;
+    }
+
+
+    .main_slider .data
+    {
+        height: 444px;
+    }
+
+
+    .main_slider .info
+    {
+        min-height: 243px;
+    }
+
+
+    .main_slider .title
+    {
+        font-size: 20px;
+
+        letter-spacing: 1px;
+    }
+
+
+    .main_slider .desc
+    {
+        font-size: 12px;
+
+        letter-spacing: .6px;
+    }
+
+
+
+    /*-----------------
+        Tabs block
+    -----------------*/
+    .tabs_block:before
+    {
+        left: -158px;
+
+        margin-left: 0;
+    }
+
+    .tabs_block:after
+    {
+        margin-left: -229px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories:before
+    {
+        top: 227px;
+        left: -196px;
+
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        Genre
+    -----------*/
+    .genre .row > *
+    {
+        width: calc(20% - 8px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+
+    footer .menu > *
+    {
+        width: 328px;
+        max-width: calc(100% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 48px 16px;
+    }
+}

@@ -1,0 +1,143 @@
+@media print,
+(max-width: 767px)
+{
+    /*----------
+        Tabs
+    ----------*/
+    .tabs .btn
+    {
+        padding: 8px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        height: 24px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider:before
+    {
+        top: 42px;
+    }
+
+    .main_slider:after
+    {
+        margin-top: 362px;
+    }
+
+
+    .main_slider .data
+    {
+        padding-bottom: 64px;
+    }
+
+
+    .main_slider .number
+    {
+        margin-left: 10px;
+    }
+
+
+
+    /*------------------
+        Performances
+    ------------------*/
+    .performances .swiper-slide-fully-visible .performance .number
+    {
+        margin-bottom: -96px;
+    }
+
+
+    .performances .swiper-slide.active .performance .number
+    {
+        margin-bottom: -16px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .row
+    {
+        margin-left: 0;
+    }
+
+
+    .categories .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------------
+        Tabs block
+    -----------------*/
+    .tabs_block:after
+    {
+        margin-left: -118px;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories:before
+    {
+        top: 141px;
+    }
+
+
+
+    /*-----------
+        Genre
+    -----------*/
+    .genre .row > *
+    {
+        width: calc(50% - 8px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 16px;
+    }
+
+
+    footer .menu
+    {
+        margin-bottom: -16px;
+        margin-left: 0;
+    }
+
+
+    footer .menu > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    footer .copyright
+    {
+        margin-top: 16px;
+    }
+}
