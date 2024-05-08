@@ -43,6 +43,12 @@
     }
 
 
+    .main_slider .swiper-slide.active .img
+    {
+        transform: translateX(-50%) scale(110%);
+    }
+
+
     .main_slider .info
     {
         width: 100%;
