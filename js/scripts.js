@@ -23,7 +23,11 @@ document.addEventListener('DOMContentLoaded', function () {
 				clickable: true,
 				bulletActiveClass: 'active'
 			},
-			lazy: true
+			lazy: true,
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false
+			}
 		})
 	}
 

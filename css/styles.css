@@ -636,7 +636,7 @@ header .menu .btn
 
 header .mob_menu_btn
 {
-    display: flex;
+    display: none;
     align-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -1208,7 +1208,14 @@ header .mob_menu_btn img
 
     height: 100%;
 
+    transition: 5.75s linear;
     pointer-events: none;
+}
+
+
+.main_slider .swiper-slide.active .img
+{
+    transform: scale(110%);
 }
 
 
