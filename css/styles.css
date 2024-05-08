@@ -1226,7 +1226,7 @@ header .mob_menu_btn img
 .tabs_block
 {
     position: relative;
-    z-index: 3;
+    z-index: 5;
 }
 
 
